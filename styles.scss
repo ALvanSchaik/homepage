@@ -1,0 +1,43 @@
+$accent-color: rgb(203, 203, 203);
+
+%text-margin, p {
+    margin-left: 30px;
+}
+
+.row {
+
+    div, a {
+        color: rgb(101,101,101);
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+    }
+
+    div {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+a:hover {
+    color: $accent-color;
+    
+}
+
+table {
+    @extend %text-margin;
+    background-color: $accent-color;
+}
+
+td {
+    width: 100px;
+    text-align: left;
+}
+
+#logo {
+    width: 100px;
+}
+
+img {
+    width: 600px;
+}
