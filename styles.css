@@ -1,0 +1,29 @@
+table, p {
+  margin-left: 30px; }
+
+.row div, .row a {
+  color: #656565;
+  text-align: center;
+  background-color: white;
+  height: 50px; }
+.row div {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+a:hover {
+  color: #cbcbcb; }
+
+table {
+  background-color: #cbcbcb; }
+
+td {
+  width: 100px;
+  text-align: left; }
+
+#logo {
+  width: 100px; }
+
+img {
+  width: 600px; }
+
+/*# sourceMappingURL=styles.css.map */
